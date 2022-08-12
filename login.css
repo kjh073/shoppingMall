@@ -1,0 +1,168 @@
+* {
+	margin: 0px;
+  	padding: 0px;
+  	text-decoration: none;
+}
+
+.top-util ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+.top-util li {
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 800;
+	margin: 0 5px;
+	padding: 0;
+}
+
+.top-util a, .top-util a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+.top-util li a:hover {
+	color: #ff0000;
+}
+
+.main-util, .search {
+	display: inline-block;
+}
+
+#logo img {
+	width: 190px;
+	margin: 20px 0 20px 10px;
+}
+
+.main-util h1 {
+	margin: 0;
+}
+
+.search {
+	padding:0;
+	border-radius: 30px;
+	background-color: #909090;
+	margin: 0 0 0 20px;
+	position: relative;
+	top: -40px;
+}
+
+.search input { 
+	border: none;
+	outline:none;
+	font-size: 16px;
+	width: 325px;
+	padding: 10px;
+	background-color: transparent;
+}
+
+.search button {
+	border: none;
+	background-color: transparent;
+	margin: 0;
+	position: relative;
+	top: -2px;
+	right: 3px;
+}
+	
+.login-form {
+	text-align: center;
+	width: 300px;
+	height: 350px;
+	position: absolute;
+	padding: 30px 20px;
+	border: 1px solid #adadad;
+	top:50%;
+  	left:50%;
+  	transform: translate(-50%,-50%);
+	border-radius: 15px;
+}
+
+.login-form h2 {
+	margin: 30px;
+}
+
+.id-form {
+	border-bottom: 2px solid #adadad;
+	margin: 30px;
+	padding: 10px;
+}
+
+.id-form input {
+	border: none;
+	outline:none;
+	width: 100%;
+	font-size: 17px;
+	height: 25px;
+}
+
+.password-form {
+	border-bottom: 2px solid #adadad;
+	margin: 30px;
+	padding: 10px;
+}
+
+.password-form input {
+	border: none;
+	outline:none;
+	width: 100%;
+	font-size: 17px;
+	height: 25px;
+}
+
+.login-form button {
+	width: 80%;
+	height:40px;
+	margin-bottom: 40px;
+	/*background: linear-gradient(125deg,#81ecec,#6c5ce7,#81ecec);*/
+	background-color: #adadad;
+	background-size: 200%;
+  	color:white;
+  	font-weight: bold;
+  	font-size: 15px;
+  	border:none;
+
+}
+
+.login-bottom ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+.login-bottom li {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 800;
+	margin: 0 5px;
+	padding: 0;
+	color: #fff;
+}
+
+.login-bottom a, .login-bottom a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+.login-bottom li a:hover {
+	color: #ff0000;
+}
+
+.signup {
+	margin: 0 20px;
+}
+
+.footer {
+	text-align: center;
+	background-color: #adadad;
+	padding: 20px;
+	color: #fff;
+	width:100%;
+    height:50px;
+    position:absolute;
+    bottom:0;
+}
